@@ -10,7 +10,11 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.sync.get({
-    urls: []
+    urls: [
+      "https://ted.com",
+      "https://thebrowser.com",
+      "https://pocket.co"
+    ]
   }, function(settings) {
     document.getElementById('urls').textContent = settings.urls.join("\n")
   })

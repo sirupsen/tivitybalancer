@@ -4,7 +4,11 @@ chrome.browserAction.onClicked.addListener(function(activeTab){
   // TODO Produce a chart of how well I'm doing..?
  
   chrome.storage.sync.get({
-    urls: [],
+    urls: [
+      "https://ted.com",
+      "https://thebrowser.com",
+      "https://pocket.co"
+    ]
   }, function(settings) {
     var page = settings.urls[Math.floor(Math.random() * settings.urls.length)]
     chrome.tabs.create({ url: page });

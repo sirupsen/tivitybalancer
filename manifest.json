@@ -1,8 +1,8 @@
 {
-  "name": "omphalos",
+  "name": "tivitybalancer",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "simons",
+  "description": "Button to redirect you to a random website from a list",
   "homepage_url": "http://sirupsen.com",
   "background": {
     "scripts": ["src/bg.js"]
@@ -17,9 +17,8 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "browser_action": {
     "default_icon": "icons/omphalos.png",
-    "default_title": "what"
+    "default_title": "Visit random site from list in options"
   }
 }

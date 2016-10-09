@@ -9,8 +9,6 @@ list of productive websites. When you click the button, it sends you to a random
 one of them! [Zeigernik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect)
 kicks in, and 🙏
 
-![](https://pbs.twimg.com/media/CuTD7-wWIAAiE6y.png:large)
-
 Examples of tasks well-suited for `trivitybalancer`. I'd recommend that they are
 tasks where you can make progress in 10-25m, otherwise you're going to end up
 dreading clicking it..
@@ -25,3 +23,5 @@ dreading clicking it..
 * Revisit notes from a book
 * `ted.com`
 * Duolingo
+
+![](https://pbs.twimg.com/media/CuTD7-wWIAAiE6y.png:large)
