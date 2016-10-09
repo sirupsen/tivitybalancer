@@ -9,6 +9,10 @@ list of productive websites. When you click the button, it sends you to a random
 one of them! [Zeigernik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect)
 kicks in, and 🙏
 
+Install by downloading the [extension
+file](https://github.com/Sirupsen/tivitybalancer/raw/master/tivitybalancer.crx)
+and open it with Chrome.
+
 Examples of tasks well-suited for `trivitybalancer`. I'd recommend that they are
 tasks where you can make progress in 10-25m, otherwise you're going to end up
 dreading clicking it..
