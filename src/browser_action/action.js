@@ -20,5 +20,20 @@ function restore_options() {
   })
 }
 
+function showVisits() {
+  var string = ""
+
+  chrome.storage.sync.get({
+    visits: {}
+  }, function(settings) {
+    for (var page in settings.visits) {
+      string += page + ": " + settings.visits[page].length + "\n"
+    }
+
+    document.getElementById('visits').textContent = string
+  })
+}
+
 document.addEventListener('DOMContentLoaded', restore_options);
+document.addEventListener('DOMContentLoaded', showVisits);
 document.getElementById('save').addEventListener('click', save_options);

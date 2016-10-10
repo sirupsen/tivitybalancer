@@ -8,9 +8,16 @@ chrome.browserAction.onClicked.addListener(function(activeTab){
       "https://ted.com",
       "https://thebrowser.com",
       "https://pocket.co"
-    ]
+    ],
+    visits: {},
   }, function(settings) {
     var page = settings.urls[Math.floor(Math.random() * settings.urls.length)]
+
+
+    settings.visits[page] = settings.visits[page] || []
+    settings.visits[page].push(new Date())
+    chrome.storage.sync.set({ visits: settings.visits })
+
     chrome.tabs.create({ url: page });
   });
 });
